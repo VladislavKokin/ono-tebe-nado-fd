@@ -14,43 +14,45 @@
       <nav class="header__menu">
         <ul class="header__links-list-main">
           <li class="header__links-list-item_no-bullit">
-            <a>главная</a>
+            <a href="#" class="link-solid link_active">главная</a>
           </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">посмотреть лоты</a>
+          <li class="footer__menu-list-item">
+            <a href="#" class="link-solid">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item">
-            <a href="#" class="header__link">об аукционе</a>
+          <li class="footer__menu-list-item">
+            <a href="#" class="link-solid">об аукционе</a>
           </li>
         </ul>   
       </nav>
       <a class="header_logo">
-        <img class="header_logo-image" src="images/logo-black.svg" alt="">
+        <img class="header_logo-image" src="images/logo-black.svg" alt="Логотип-черный">
       </a>
-      <address class="header__address">
-        <a href="tel:+99995555555" class="header__address-elements header__address-indent">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="header__address-elements header__address-indent">info@sobaka.ge</a>
-        <p class="header__address-elements">наб. Принсенграхт 263-<br>265, Амстердам</p>
+      <address class="address">
+        <a href="tel:+99995555555" class="address-elements address-indent">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address-elements address-indent">info@sobaka.ge</a>
+        <p class="address-elements">наб. Принсенграхт 263-<br>265, Амстердам</p>
       </address>
     </header>
     <main>
-      <cover class="cover">
-        <div class="overlay">
-          <h1 class="cover_title">
-            <span class="aligned-text-left">ОНО</span>
-            <span class="aligned-text-center">ТЕБЕ</span>
-            <span class="aligned-text-right">НАДО</span>
-          </h1>
+      <section class="cover">
+        <div>
+          <div class="overlay">
+            <h1 class="cover_title">
+              <span class="aligned-text-left">оно</span>
+              <span class="aligned-text-center">тебе</span>
+              <span class="aligned-text-right">надо</span>
+            </h1>
+          </div>
         </div>
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-button">Сделать ставку</button>
         </div>
-      </cover>
-      <lots class="lots">
+      </section>
+      <section class="lots">
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
-          <li class="lots__card-list-item">
+          <li class="card">
             <a class="card-link">
               <article class="card_type_film">
                 <div class="overlay"></div>
@@ -61,7 +63,7 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item">
+          <li class="card">
             <a class="card-link">
               <article class="card_type_book">
                 <div class="overlay"></div>
@@ -74,7 +76,7 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-list-item">
+          <li class="card">
             <a class="card-link">
               <article class="card_type_picture">
                 <div class="overlay"></div>
@@ -88,8 +90,8 @@
           </li>
         </ul>
         <a class="lots__look-more-link" href="#">посмотреть больше</a>
-      </lots>
-      <about class="about">
+      </section>
+      <section class="about">
         <a class="about__logo">
           <img class="about__logo-image" src="images/logo-white.svg" alt="">
         </a>
@@ -99,7 +101,7 @@
            Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок?
            Кому нужны все эти странные вещи,
            созданные любителями?</p>
-           <p class="about__text about__text-indent">Слишком сложные или, наоборот, слишком простые.
+           <p class="about__text">Слишком сложные или, наоборот, слишком простые.
             Опережающие своё время.
             В пух и прах растерзанные критиками.
             Непринятые и непонятые. Когда-то они казались просто неудачными.
@@ -107,28 +109,28 @@
             сейчас без этих лотов невозможно представить современную культуру.
             Когда в эти вещи не верил никто, продолжали верить их создатели.
             И сейчас эти лоты стали культовыми.</p>
-      </about>
+      </section>
     </main>
     <footer class="footer">
-      <address class="footer__address">
-        <a href="tel:+99995555555" class="header__address-elements header__address-indent">+9 999 555 5555</a>
-        <a href="mailto:info@sobaka.ge" class="header__address-elements header__address-indent">info@sobaka.ge</a>
-        <p class="header__address-elements">наб. Принсенграхт 263-265,<br>Амстердам</p>
+      <address class="address">
+        <a href="tel:+99995555555" class="address-elements address-indent">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="address-elements address-indent">info@sobaka.ge</a>
+        <p class="address-elements">наб. Принсенграхт 263-265,<br>Амстердам</p>
       </address>
         <nav class="footer__menu">
           <ul class="footer__menu-list">
-            <li class="header__links-list-item_no-bullit">
-              <a>главная</a>
+            <li class="links-list-item_no-bullit">
+              <a href="#" class="link-solid link_active">главная</a>
             </li>
             <li class="footer__menu-list-item">
-              <a href="#" class="header__link">посмотреть лоты</a>
+              <a href="#" class="link-solid">посмотреть лоты</a>
             </li>
             <li class="footer__menu-list-item">
-              <a href="#" class="header__link">об аукционе</a>
+              <a href="#" class="link-solid">об аукционе</a>
             </li>
           </ul>   
         </nav>
-        <footer__social class="footer__social">
+        <div class="footer__social">
           <ul class="footer__social-list">
             <li class="footer__social-list-item">
               <a href="" class="footer__social-link">
@@ -158,7 +160,7 @@
               </a>
             </li>
           </ul>
-        </footer__social-icon>
+        </div>
     </footer>
   </body>
 </html>
