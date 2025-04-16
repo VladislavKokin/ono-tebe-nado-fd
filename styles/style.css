@@ -260,9 +260,9 @@ article {
 
 .about {
     display: grid;
-    grid-template-columns: 240px 765px;
-    padding-left: 71px;
-    padding-right: 24px;
+    grid-template-columns: 240px 760px;
+    padding-left: 72px;
+    padding-right: 30px;
     padding-top: 155px;
 }
 
@@ -294,19 +294,18 @@ article {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    padding-top: 8px;
+    line-height: 24px;
+    letter-spacing: 0%;
     padding-left: 72px;
     grid-column-start: 2;
-}
-
-.about__text-high {
-    padding-bottom: 24px;
+    padding-top: 8px;
+    padding-bottom: 16px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 180px 50px 80px;
+    padding: 165px 50px 80px;
   }
   
 .footer_address {
