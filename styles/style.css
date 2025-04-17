@@ -46,13 +46,16 @@
 }
 
 .address {
-    padding-left: 193px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     display: flex;
     flex-direction: column;
+}
+
+.header_address {
+    padding-left: 193px;
 }
 
 .address-indent {
@@ -190,7 +193,7 @@
     min-height: 596px;
 }
 
-.card-link{
+.card-link {
     height: 100%;
 }
 
@@ -308,15 +311,6 @@ article {
     padding: 165px 50px 80px;
   }
   
-.footer_address {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    flex-direction: column;
-}
-
   .footer__social-icon {
     width: auto;
     height: 48px;
